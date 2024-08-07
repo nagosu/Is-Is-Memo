@@ -2,7 +2,17 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        main: "1100px",
+      },
+      height: {
+        textarea: "600px",
+      },
+      fontFamily: {
+        Pretendard: ["Pretendard", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
