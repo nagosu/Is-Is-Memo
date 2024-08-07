@@ -1,6 +1,6 @@
 function HeaderMain() {
   return (
-    <header className='fixed top-0 left-0 flex w-full h-14 bg-white'>
+    <header className="fixed left-0 top-0 flex h-14 w-full bg-teal-600">
       <div></div>
     </header>
   );
